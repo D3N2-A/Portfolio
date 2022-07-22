@@ -1,16 +1,37 @@
 import { useEffect, useState } from "react";
 import Loader from "react-loaders";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
+  const form = useRef();
 
   useEffect(() => {
     setTimeout(() => {
-      return setLetterClass("text-animate-hover");
+      setLetterClass("text-animate-hover");
     }, 3000);
   }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("gmail", "template_YeJhZkgb", form.current, "your-token")
+      .then(
+        () => {
+          alert("Message successfully sent!");
+          window.location.reload(false);
+        },
+        () => {
+          alert("Failed to send the message, please try again");
+        }
+      );
+  };
+
   return (
     <>
       <div className="container contact-page">
@@ -27,7 +48,7 @@ const Contact = () => {
             projects. However, if you have other requests or question, don't
             hesitate to contact me using below form either.
           </p>
-          <div className="contact-form">
+          <div className="contact-form" id="contact-form">
             <form>
               <ul>
                 <li className="half">
@@ -62,6 +83,22 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+        <div className="info-map">
+          Anmol Sharma,
+          <br />
+          India,
+          <br />
+          Nit Hamirpur,Himachal Pradesh <br />
+          <span>email</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[31.7084, 76.5274]} zoom={13}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[31.7084, 76.5274]}>
+              <Popup>D3N2 lives here, come over for a cup of coffee :)</Popup>
+            </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
