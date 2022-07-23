@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import DrawSVGPlugin from "gsap/DrawSVGPlugin";
+
 import LogoS from "../../../assets/images/logo-a.png";
 import "./index.scss";
 
@@ -8,37 +7,12 @@ const Logo = () => {
   const bgRef = useRef();
   const outlineLogoRef = useRef();
   const solidLogoRef = useRef();
-  const tl = useRef(gsap.timeline());
-  useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin);
-
-    tl.current
-      .to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
-      .from(outlineLogoRef.current, {
-        drawSVG: 0,
-        duration: 7,
-      });
-
-    gsap.fromTo(
-      solidLogoRef.current,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        delay: 4,
-        duration: 4,
-      }
-    );
-  }, []);
+  const tl = useRef();
 
   return (
-    <div className="logo-container" ref={bgRef}>
-      <img ref={solidLogoRef} src={LogoS} alt="" className="solid-logo" />
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 559 897">
+    <div className="logo-container">
+      <img src={LogoS} alt="" className="solid-logo" />
+      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 559 897">
         <g className="svg-container">
           <path
             ref={outlineLogoRef}
@@ -49,7 +23,7 @@ const Logo = () => {
             strokeMiterimit="10"
           />
         </g>
-      </svg>
+      </svg> */}
     </div>
   );
 };
