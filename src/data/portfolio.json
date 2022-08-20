@@ -1,0 +1,10 @@
+{
+  "portfolio": [
+    {
+      "cover": "./portfolio/one.png",
+      "title": "Whatsapp dark clone",
+      "description": "MERN, MUI, pusher",
+      "url": "https://github.com/D3N2-A/Whatsapp-mern"
+    }
+  ]
+}
