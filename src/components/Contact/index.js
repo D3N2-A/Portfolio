@@ -106,6 +106,9 @@ const Contact = () => {
               attribution="D3N2 lives here"
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            <Marker position={[31.708629865072858, 76.52736333353135]}>
+              <Popup>Anmol lives here, come over for a cup of coffe :)</Popup>
+            </Marker>
           </MapContainer>
         </div>
       </div>
