@@ -87,16 +87,28 @@ const Contact = () => {
         <div className="info-map">
           Anmol Sharma,
           <br />
-          India,
+          Nit Hamirpur, Himachal Pradesh
           <br />
-          Nit Hamirpur,Himachal Pradesh <br />
-          <span>email</span>
+          India
+          <br />
+          <span>
+            <a href="mailto:20bph010@nith.ac.in" className="link">
+              E-mail
+            </a>
+          </span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[31.7084, 76.5274]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[31.7084, 76.5274]}>
-              <Popup>D3N2 lives here, come over for a cup of coffee :)</Popup>
+          <MapContainer
+            center={[31.708629865072858, 76.52736333353135]}
+            zoom={15}
+            scrollWheelZoom={true}
+          >
+            <TileLayer
+              attribution="D3N2 lives here"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={[31.708629865072858, 76.52736333353135]}>
+              <Popup>Anmol lives here, come over for a cup of coffe :)</Popup>
             </Marker>
           </MapContainer>
         </div>

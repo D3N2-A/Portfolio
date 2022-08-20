@@ -10,7 +10,7 @@
       "cover": "/portfolio/1/three.png",
       "title": "Portfolio website ",
       "description": "React⚛️, GSAP, TagCloud",
-      "url": "https://github.com/D3N2-A/Whatsapp-mern"
+      "url": "https://d3n2.netlify.app/"
     },
     {
       "cover": "/portfolio/1/five2.png",
@@ -28,7 +28,7 @@
       "cover": "/portfolio/1/four.png",
       "title": "Secrets App",
       "description": "Node, Express, MongoDB, PassportJs",
-      "url": "https://github.com/D3N2-A/Whatsapp-mern"
+      "url": "https://github.com/D3N2-A/Secrets-App"
     }
   ]
 }
