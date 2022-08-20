@@ -75,10 +75,12 @@
 
 .map-wrap {
   background: rgba(8, 253, 216, 0.1);
+  box-sizing: border-box;
   float: right;
   width: 53%;
   height: 115%;
   margin-top: -3%;
+  overflow: hidden;
 }
 
 .leaflet-container {
@@ -105,7 +107,10 @@
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
-
+  a {
+    color: white;
+    text-decoration: none;
+  }
   span {
     font-size: 16px;
 
