@@ -3,25 +3,31 @@
     {
       "cover": "/portfolio/1/one.png",
       "title": "Whatsapp dark clone",
-      "description": "MERN, MUI, pusher",
+      "description": "MERN⚛️, MUI, pusherJs🧑‍💻",
       "url": "https://github.com/D3N2-A/Whatsapp-mern"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "Whatsapp dark clone",
-      "description": "MERN, MUI, pusher",
+      "cover": "/portfolio/1/three.png",
+      "title": "Portfolio website ",
+      "description": "React⚛️, GSAP, TagCloud",
       "url": "https://github.com/D3N2-A/Whatsapp-mern"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "Whatsapp dark clone",
-      "description": "MERN, MUI, pusher",
-      "url": "https://github.com/D3N2-A/Whatsapp-mern"
+      "cover": "/portfolio/1/five2.png",
+      "title": "Team Vibhav",
+      "description": "HTML, CSS, Bootstrap, Js",
+      "url": "https://vibhav-nimbus.netlify.app/"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "Whatsapp dark clone",
-      "description": "MERN, MUI, pusher",
+      "cover": "/portfolio/1/two.png",
+      "title": "Live Chat app",
+      "description": "HTML, CSS, JS, Socket.io🔗",
+      "url": "https://github.com/D3N2-A/Group-chat-Demo"
+    },
+    {
+      "cover": "/portfolio/1/four.png",
+      "title": "Secrets App",
+      "description": "Node, Express, MongoDB, PassportJs",
       "url": "https://github.com/D3N2-A/Whatsapp-mern"
     }
   ]
