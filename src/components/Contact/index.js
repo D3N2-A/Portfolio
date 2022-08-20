@@ -87,9 +87,10 @@ const Contact = () => {
         <div className="info-map">
           Anmol Sharma,
           <br />
-          India,
+          Nit Hamirpur, Himachal Pradesh
           <br />
-          Nit Hamirpur,Himachal Pradesh <br />
+          India
+          <br />
           <span>
             <a href="mailto:20bph010@nith.ac.in" className="link">
               E-mail

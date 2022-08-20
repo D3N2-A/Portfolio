@@ -36,6 +36,8 @@
   input[type="email"] {
     width: 100%;
     border: 0;
+    font-family: "Coolvetics";
+    font-weight: 200;
     background: rgba(101, 99, 99, 0.938);
     height: 50px;
     font-size: 16px;
@@ -47,6 +49,7 @@
   textarea {
     width: 100%;
     border: 0;
+    font-family: "Coolvetics";
     background: rgba(101, 99, 99, 0.938);
     height: 50px;
     font-size: 16px;
@@ -59,6 +62,7 @@
   .flat-button {
     color: #ffd700;
     font-size: 11px;
+    font-family: "Coolvetics";
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
@@ -70,6 +74,13 @@
     float: right;
     text-align: center;
     margin-right: 10px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ffd700;
+      color: #fff;
+    }
   }
 }
 
@@ -90,6 +101,10 @@
   opacity: 0;
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
+  .leaflet-popup-content {
+    // font-family: "coolvetics";
+    font-size: 15px;
+  }
 }
 
 .info-map {
@@ -101,12 +116,13 @@
   width: 267px;
   padding: 20px;
   color: #fff;
-  font-family: "Helvetica";
+  font-family: "La Belle Aurore";
   font-size: 17px;
   font-weight: 300;
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
+
   a {
     color: white;
     text-decoration: none;
