@@ -120,7 +120,9 @@
         font-size: 15px;
         line-height: 16px;
         color: #4d4d4e;
-
+        svg {
+          transition: all 0.3s linear;
+        }
         &:hover {
           svg {
             color: #ffd700;
