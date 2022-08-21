@@ -41,9 +41,16 @@
     background: rgba(101, 99, 99, 0.938);
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 0 20px;
     box-sizing: border-box;
+    transform: translate(0px);
+
+    transition: transform 0.6s ease-in-out;
+
+    &:focus {
+      transform: translateY(-3px);
+    }
   }
 
   textarea {
@@ -51,7 +58,7 @@
     border: 0;
     font-family: "Coolvetics";
     background: rgba(101, 99, 99, 0.938);
-    height: 50px;
+    height: 0px;
     font-size: 16px;
     color: #fff;
     padding: 20px;
