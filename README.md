@@ -40,6 +40,15 @@ To run this project in development server
 #### GET, DELETE, ADD methods coming soon
 
 
+## Environment Variables
+
+To run Dashboard part of website, you will need to add the following environment variables to your .env file
+
+`User_key`
+
+`pwd`
+
+
 ## Author
 
 - [@D3N2](https://www.github.com/D3N2-A)
