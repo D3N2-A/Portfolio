@@ -28,10 +28,6 @@
     opacity: 1;
 
     z-index: 1;
-
-    &:hover {
-      animation: rubberBand 1s;
-    }
   }
 }
 
@@ -39,4 +35,10 @@
   stroke: #ffd700 !important;
   stroke-width: 10;
   width: 350px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .logo-container {
+    zoom: 0.7;
+  }
 }
