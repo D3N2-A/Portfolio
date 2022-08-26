@@ -23,11 +23,21 @@ const Sidebar = () => {
         <img className="sub-logo" src={LogoSubtitles} alt="subs" />
       </Link>
       <nav className={showNav ? "mobile-show" : ""}>
-        <NavLink exact="true" activclassname="active" to="/">
+        <NavLink
+          onClick={() => {
+            setShowNav(false);
+          }}
+          exact="true"
+          activclassname="active"
+          to="/"
+        >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
 
         <NavLink
+          onClick={() => {
+            setShowNav(false);
+          }}
           exact="true"
           activclassname="active"
           className="about-link"
@@ -37,6 +47,9 @@ const Sidebar = () => {
         </NavLink>
 
         <NavLink
+          onClick={() => {
+            setShowNav(false);
+          }}
           exact="true"
           activclassname="active"
           className="portfolio-link"
@@ -46,6 +59,9 @@ const Sidebar = () => {
         </NavLink>
 
         <NavLink
+          onClick={() => {
+            setShowNav(false);
+          }}
           exact="true"
           activclassname="active"
           className="contact-link"
