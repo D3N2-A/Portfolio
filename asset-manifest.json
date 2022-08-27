@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.e687b842.css",
-    "main.js": "./static/js/main.eaf61d9d.js",
-    "static/js/787.a2cb61a6.chunk.js": "./static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo-a.png": "./static/media/logo-a.9b1c9ede579c9c84d485.png",
-    "static/media/helvetica-neu.ttf": "./static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "./static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo_sub.png": "./static/media/logo_sub.cba078d95246af2e171d.png",
-    "static/media/CoolveticaRg-Regular.woff2": "./static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "./index.html",
-    "main.e687b842.css.map": "./static/css/main.e687b842.css.map",
-    "main.eaf61d9d.js.map": "./static/js/main.eaf61d9d.js.map",
-    "787.a2cb61a6.chunk.js.map": "./static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.b01e87d8.css",
+    "main.js": "/Portfolio/static/js/main.db33666e.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/logo-a.png": "/Portfolio/static/media/logo-a.9b1c9ede579c9c84d485.png",
+    "static/media/helvetica-neu.ttf": "/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo_sub.png": "/Portfolio/static/media/logo_sub.cba078d95246af2e171d.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.b01e87d8.css.map": "/Portfolio/static/css/main.b01e87d8.css.map",
+    "main.db33666e.js.map": "/Portfolio/static/js/main.db33666e.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e687b842.css",
-    "static/js/main.eaf61d9d.js"
+    "static/css/main.b01e87d8.css",
+    "static/js/main.db33666e.js"
   ]
 }
